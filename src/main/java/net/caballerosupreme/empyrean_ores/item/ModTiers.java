@@ -36,7 +36,7 @@ public class ModTiers {
 
     //Aluminum Tier
     public static final Tier ALUMINUM = TierSortingRegistry.registerTier(
-            new ForgeTier(3, 300, 6f,1f,14,
+            new ForgeTier(3, 200, 6f,1f,14,
                     ModTags.Blocks.NEEDS_ALUMINUM_TOOL, () -> Ingredient.of(ModItems.ALUMINUM_INGOT.get())),
             new ResourceLocation(EmpyreanOres.MOD_ID, "aluminum"), List.of(Tiers.STONE), List.of());
 

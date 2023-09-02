@@ -35,5 +35,33 @@
   "item.empyrean_ores.amethyst_pickaxe" : "Amethyst Pickaxe",
   "item.empyrean_ores.aluminum_pickaxe" : "Aluminum Pickaxe",
 
+  "item.empyrean_ores.opal_sword" : "Opal Sword",
+  "item.empyrean_ores.sapphire_sword" : "Sapphire Sword",
+  "item.empyrean_ores.steel_sword" : "Steel Sword",
+  "item.empyrean_ores.ruby_sword" : "Ruby Sword",
+  "item.empyrean_ores.amethyst_sword" : "Amethyst Sword",
+  "item.empyrean_ores.aluminum_sword" : "Aluminum Sword",
+
+  "item.empyrean_ores.opal_axe" : "Opal Axe",
+  "item.empyrean_ores.sapphire_axe" : "Sapphire Axe",
+  "item.empyrean_ores.steel_axe" : "Steel Axe",
+  "item.empyrean_ores.ruby_axe" : "Ruby Axe",
+  "item.empyrean_ores.amethyst_axe" : "Amethyst Axe",
+  "item.empyrean_ores.aluminum_axe" : "Aluminum Axe",
+
+  "item.empyrean_ores.opal_shovel" : "Opal Shovel",
+  "item.empyrean_ores.sapphire_shovel" : "Sapphire Shovel",
+  "item.empyrean_ores.steel_shovel" : "Steel Shovel",
+  "item.empyrean_ores.ruby_shovel" : "Ruby Shovel",
+  "item.empyrean_ores.amethyst_shovel" : "Amethyst Shovel",
+  "item.empyrean_ores.aluminum_shovel" : "Aluminum Shovel",
+
+  "item.empyrean_ores.opal_hoe" : "Opal Hoe",
+  "item.empyrean_ores.sapphire_hoe" : "Sapphire Hoe",
+  "item.empyrean_ores.steel_hoe" : "Steel Hoe",
+  "item.empyrean_ores.ruby_hoe" : "Ruby Hoe",
+  "item.empyrean_ores.amethyst_hoe" : "Amethyst Hoe",
+  "item.empyrean_ores.aluminum_hoe" : "Aluminum Hoe",
+
   "itemGroup.empyrean_ores_tab" : "Empyrean Ores"
 }
