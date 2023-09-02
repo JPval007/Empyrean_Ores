@@ -211,6 +211,21 @@ public class ModItems {
             () -> new HoeItem(ModTiers.ALUMINUM, 1,1f,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
 
+    //-------------------------------------------------------------------------------------------------------------------------
+    //Armor
+
+    //Opal
+
+    //Sapphire
+
+    //Steel
+
+    //Ruby
+
+    //Amethyst
+
+    //Aluminum
+
 
 
 
