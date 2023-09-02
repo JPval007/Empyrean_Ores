@@ -73,7 +73,9 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_ORES_TAB).stacksTo(1)));
 
     //Aluminum Pickaxe
-
+    public static final RegistryObject<Item> ALUMINUM_PICKAXE = ITEMS.register("aluminum_pickaxe",
+            () -> new PickaxeItem(ModTiers.ALUMINUM, 1,2f,
+                    new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_ORES_TAB).stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

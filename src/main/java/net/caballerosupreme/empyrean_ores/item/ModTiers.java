@@ -9,9 +9,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Tiers;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.ForgeTier;
-import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.TierSortingRegistry;
-import net.minecraftforge.fml.common.Mod;
+
 
 import java.util.List;
 import java.util.Objects;
@@ -36,28 +35,32 @@ public class ModTiers {
 
 
     //Aluminum Tier
+    public static final Tier ALUMINUM = TierSortingRegistry.registerTier(
+            new ForgeTier(3, 300, 6f,1f,14,
+                    ModTags.Blocks.NEEDS_ALUMINUM_TOOL, () -> Ingredient.of(ModItems.ALUMINUM_INGOT.get())),
+            new ResourceLocation(EmpyreanOres.MOD_ID, "aluminum"), List.of(Tiers.STONE), List.of());
 
     //Amethyst Tier
     public static final Tier AMETHYST = TierSortingRegistry.registerTier(
-            new ForgeTier(2, 300, 6f,5f,14,
+            new ForgeTier(2, 300, 6f,1f,14,
                     ModTags.Blocks.NEEDS_AMETHYST_TOOL, () -> Ingredient.of(Items.AMETHYST_SHARD)),
             new ResourceLocation(EmpyreanOres.MOD_ID, "amethyst"), List.of(Tiers.STONE), List.of());
 
     //Ruby Tier
     public static final Tier RUBY = TierSortingRegistry.registerTier(
-            new ForgeTier(2, 700, 6f,5f,14,
+            new ForgeTier(2, 700, 6f,2f,14,
                     ModTags.Blocks.NEEDS_RUBY_TOOL, () -> Ingredient.of(ModItems.RUBY.get())),
-            new ResourceLocation(EmpyreanOres.MOD_ID, "ruby"), List.of(ModTiers.AMETHYST), List.of());
+            new ResourceLocation(EmpyreanOres.MOD_ID, "ruby"), List.of(Tiers.STONE), List.of());
 
     //Steel Tier
     public static final Tier STEEL = TierSortingRegistry.registerTier(
-            new ForgeTier(3, 1200, 8f,5f,15,
+            new ForgeTier(3, 1200, 8f,3f,15,
                     ModTags.Blocks.NEEDS_STEEL_TOOL, () -> Ingredient.of(ModItems.HIGH_CARBON_STEEL_INGOT.get())),
-            new ResourceLocation(EmpyreanOres.MOD_ID, "steel"), List.of(Tiers.DIAMOND), List.of());
+            new ResourceLocation(EmpyreanOres.MOD_ID, "steel"), List.of(Tiers.IRON), List.of());
 
     //Sapphire Mining Tier (Above Netherite)
     public static final Tier SAPPHIRE = TierSortingRegistry.registerTier(
-            new ForgeTier(5, 2200, 10f,5f,22,
+            new ForgeTier(5, 2200, 10f,4f,22,
                     ModTags.Blocks.NEEDS_SAPPHIRE_TOOL,() -> Ingredient.of(ModItems.SAPPHIRE.get())),
             new ResourceLocation(EmpyreanOres.MOD_ID, "sapphire"), List.of(Tiers.NETHERITE), List.of());
 
