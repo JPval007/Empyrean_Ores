@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#empyrean_ores:sapphire_generation",
+  "features": "empyrean_ores:sapphire_ore_placed",
+  "step": "underground_ores"
+}

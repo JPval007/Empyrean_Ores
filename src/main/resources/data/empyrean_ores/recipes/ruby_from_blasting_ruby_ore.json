@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "empyrean_ores",
+  "ingredient": {
+    "item": "empyrean_ores:ruby_ore"
+  },
+  "result": "empyrean_ores:ruby",
+  "experience": 1.0,
+  "cookingtime": 100
+}

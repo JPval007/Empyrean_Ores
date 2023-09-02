@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 250,
+  "experience": 1.7,
+  "ingredient": {
+    "item": "empyrean_ores:opal_ore"
+  },
+  "result": "empyrean_ores:opal"
+}

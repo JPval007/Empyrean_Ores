@@ -1,0 +1,39 @@
+{
+  "item.empyrean_ores.mandalorian_helmet" : "Helmet of Mandalor the Great",
+  "item.empyrean_ores.low_carbon_steel_ingot" : "Low Carbon Steel Ingot",
+  "item.empyrean_ores.mid_carbon_steel_ingot" : "Mid Carbon Steel Ingot",
+  "item.empyrean_ores.high_carbon_steel_ingot" : "High Carbon Steel Ingot",
+
+  "block.empyrean_ores.low_carbon_steel_block" : "Block of Low Carbon Steel",
+  "block.empyrean_ores.mid_carbon_steel_block" : "Block of Mid Carbon Steel",
+  "block.empyrean_ores.high_carbon_steel_block" : "Block of High Carbon Steel",
+
+  "item.empyrean_ores.aluminum_ingot" : "Aluminum Ingot",
+  "block.empyrean_ores.aluminum_block" : "Block of Aluminum",
+  "block.empyrean_ores.aluminum_ore" : "Aluminum Ore",
+
+  "item.empyrean_ores.opal" : "Opal",
+  "block.empyrean_ores.opal_block" : "Block of Opal",
+  "block.empyrean_ores.opal_ore" : "Opal Ore",
+
+  "item.empyrean_ores.sapphire" : "Sapphire",
+  "block.empyrean_ores.sapphire_block" : "Block of Sapphire",
+  "block.empyrean_ores.sapphire_ore" : "Sapphire Ore",
+
+
+  "item.empyrean_ores.ruby" : "Ruby",
+  "block.empyrean_ores.ruby_block" : "Block of Ruby",
+  "block.empyrean_ores.ruby_ore" : "Ruby Ore",
+
+  "block.empyrean_ores.cut_amethyst" : "Cut Amethyst",
+  "block.empyrean_ores.amethyst_ore" : "Amethyst Ore",
+
+  "item.empyrean_ores.opal_pickaxe" : "Opal Pickaxe",
+  "item.empyrean_ores.sapphire_pickaxe" : "Sapphire Pickaxe",
+  "item.empyrean_ores.steel_pickaxe" : "Steel Pickaxe",
+  "item.empyrean_ores.ruby_pickaxe" : "Ruby Pickaxe",
+  "item.empyrean_ores.amethyst_pickaxe" : "Amethyst Pickaxe",
+  "item.empyrean_ores.aluminum_pickaxe" : "Aluminum Pickaxe",
+
+  "itemGroup.empyrean_ores_tab" : "Empyrean Ores"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#empyrean_ores:opal_generation",
+  "features": "empyrean_ores:opal_ore_placed",
+  "step": "underground_ores"
+}

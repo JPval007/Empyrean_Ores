@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "empyrean_ores:sapphire_ore",
+    "empyrean_ores:sapphire_block",
+    "empyrean_ores:high_carbon_steel_block",
+    "empyrean_ores:mid_carbon_steel_block"
+  ]
+}

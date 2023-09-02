@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 120,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "empyrean_ores:aluminum_ore"
+  },
+  "result": "empyrean_ores:aluminum_ingot"
+}

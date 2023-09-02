@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "empyrean_ores:ruby_ore",
+    "empyrean_ores:low_carbon_steel_block",
+    "empyrean_ores:amethyst_ore",
+    "empyrean_ores:cut_amethyst",
+    "empyrean_ores:ruby_block"
+  ]
+}

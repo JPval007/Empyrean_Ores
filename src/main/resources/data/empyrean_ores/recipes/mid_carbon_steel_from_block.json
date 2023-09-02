@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "empyrean_ores",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "empyrean_ores:mid_carbon_steel_block"
+    }
+  },
+  "result": {
+    "item": "empyrean_ores:mid_carbon_steel_ingot",
+    "count": 9
+  }
+}

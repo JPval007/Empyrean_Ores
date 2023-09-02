@@ -1,0 +1,19 @@
+{
+  "replace" : false,
+  "values": [
+    "empyrean_ores:aluminum_ore",
+    "empyrean_ores:aluminum_block",
+    "empyrean_ores:amethyst_ore",
+    "empyrean_ores:cut_amethyst",
+    "empyrean_ores:ruby_ore",
+    "empyrean_ores:ruby_block",
+    "empyrean_ores:sapphire_ore",
+    "empyrean_ores:sapphire_block",
+    "empyrean_ores:opal_block",
+    "empyrean_ores:opal_ore",
+    "empyrean_ores:low_carbon_steel_block",
+    "empyrean_ores:mid_carbon_steel_block",
+    "empyrean_ores:high_carbon_steel_block"
+
+  ]
+}

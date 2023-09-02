@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 180,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "empyrean_ores:amethyst_ore"
+  },
+  "result": "minecraft:amethyst_shard"
+}

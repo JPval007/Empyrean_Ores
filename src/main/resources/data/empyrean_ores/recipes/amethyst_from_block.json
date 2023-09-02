@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "empyrean_ores",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "empyrean_ores:cut_amethyst"
+    }
+  },
+  "result": {
+    "item": "minecraft:amethyst_shard",
+    "count": 4
+  }
+}
