@@ -68,5 +68,30 @@
   "item.empyrean_ores.aluminum_leggins" : "Aluminum Leggins",
   "item.empyrean_ores.aluminum_boots" : "Aluminum Boots",
 
+  "item.empyrean_ores.steel_helmet" : "Steel Helmet",
+  "item.empyrean_ores.steel_chestplate" : "Steel Chestplate",
+  "item.empyrean_ores.steel_leggins" : "Steel Leggins",
+  "item.empyrean_ores.steel_boots" : "Steel Boots",
+
+  "item.empyrean_ores.amethyst_helmet" : "Amethyst Helmet",
+  "item.empyrean_ores.amethyst_chestplate" : "Amethyst Chestplate",
+  "item.empyrean_ores.amethyst_leggins" : "Amethyst Leggins",
+  "item.empyrean_ores.amethyst_boots" : "Amethyst Boots",
+
+  "item.empyrean_ores.ruby_helmet" : "Ruby Helmet",
+  "item.empyrean_ores.ruby_chestplate" : "Ruby Chestplate",
+  "item.empyrean_ores.ruby_leggins" : "Ruby Leggins",
+  "item.empyrean_ores.ruby_boots" : "Ruby Boots",
+
+  "item.empyrean_ores.sapphire_helmet" : "Sapphire Helmet",
+  "item.empyrean_ores.sapphire_chestplate" : "Sapphire Chestplate",
+  "item.empyrean_ores.sapphire_leggins" : "Sapphire Leggins",
+  "item.empyrean_ores.sapphire_boots" : "Sapphire Boots",
+
+  "item.empyrean_ores.opal_helmet" : "Opal Helmet",
+  "item.empyrean_ores.opal_chestplate" : "Opal Chestplate",
+  "item.empyrean_ores.opal_leggins" : "Opal Leggins",
+  "item.empyrean_ores.opal_boots" : "Opal Boots",
+
   "itemGroup.empyrean_ores_tab" : "Empyrean Ores"
 }

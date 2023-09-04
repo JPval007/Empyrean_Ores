@@ -1,8 +1,7 @@
 package net.caballerosupreme.empyrean_ores.item;
 
 import net.caballerosupreme.empyrean_ores.EmpyreanOres;
-import net.caballerosupreme.empyrean_ores.item.custom.AluminumArmorItem;
-import net.caballerosupreme.empyrean_ores.item.custom.CustomHelmetItem;
+import net.caballerosupreme.empyrean_ores.item.custom.*;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -217,14 +216,93 @@ public class ModItems {
     //Armor
 
     //Opal
+    public static final RegistryObject<Item> OPAL_HELMET = ITEMS.register("opal_helmet",
+            () -> new SapphireArmorItem(ModArmorMaterials.OPAL, EquipmentSlot.HEAD, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
+    public static final RegistryObject<Item> OPAL_CHESTPLATE = ITEMS.register("opal_chestplate",
+            () -> new SapphireArmorItem(ModArmorMaterials.OPAL, EquipmentSlot.CHEST, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
+    public static final RegistryObject<Item> OPAL_LEGGINS = ITEMS.register("opal_leggins",
+            () -> new SapphireArmorItem(ModArmorMaterials.OPAL, EquipmentSlot.LEGS, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
+    public static final RegistryObject<Item> OPAL_BOOTS = ITEMS.register("opal_boots",
+            () -> new SapphireArmorItem(ModArmorMaterials.OPAL, EquipmentSlot.FEET, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
 
     //Sapphire
+    public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
+            () -> new SapphireArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.HEAD, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
+    public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
+            () -> new SapphireArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.CHEST, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
+    public static final RegistryObject<Item> SAPPHIRE_LEGGINS = ITEMS.register("sapphire_leggins",
+            () -> new SapphireArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.LEGS, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
+    public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
+            () -> new SapphireArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.FEET, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
 
     //Steel
+    public static final RegistryObject<Item> STEEL_HELMET = ITEMS.register("steel_helmet",
+            () -> new SteelArmorItem(ModArmorMaterials.STEEL, EquipmentSlot.HEAD, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
+    public static final RegistryObject<Item> STEEL_CHESTPLATE = ITEMS.register("steel_chestplate",
+            () -> new SteelArmorItem(ModArmorMaterials.STEEL, EquipmentSlot.CHEST, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
+    public static final RegistryObject<Item> STEEL_LEGGINS = ITEMS.register("steel_leggins",
+            () -> new SteelArmorItem(ModArmorMaterials.STEEL, EquipmentSlot.LEGS, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
+    public static final RegistryObject<Item> STEEL_BOOTS = ITEMS.register("steel_boots",
+            () -> new SteelArmorItem(ModArmorMaterials.STEEL, EquipmentSlot.FEET, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
 
     //Ruby
+    public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
+            () -> new RubyArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.HEAD, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
+    public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",
+            () -> new RubyArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.CHEST, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
+    public static final RegistryObject<Item> RUBY_LEGGINS = ITEMS.register("ruby_leggins",
+            () -> new RubyArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.LEGS, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
+    public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
+            () -> new RubyArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.FEET, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
 
     //Amethyst
+    public static final RegistryObject<Item> AMETHYST_HELMET = ITEMS.register("amethyst_helmet",
+            () -> new AmethystArmorItem(ModArmorMaterials.AMETHYST, EquipmentSlot.HEAD, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
+    public static final RegistryObject<Item> AMETHYST_CHESTPLATE = ITEMS.register("amethyst_chestplate",
+            () -> new AmethystArmorItem(ModArmorMaterials.AMETHYST, EquipmentSlot.CHEST, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
+    public static final RegistryObject<Item> AMETHYST_LEGGINS = ITEMS.register("amethyst_leggins",
+            () -> new AmethystArmorItem(ModArmorMaterials.AMETHYST, EquipmentSlot.LEGS, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
+    public static final RegistryObject<Item> AMETHYST_BOOTS = ITEMS.register("amethyst_boots",
+            () -> new AmethystArmorItem(ModArmorMaterials.AMETHYST, EquipmentSlot.FEET, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
 
     //Aluminum
     public static final RegistryObject<Item> ALUMINUM_HELMET = ITEMS.register("aluminum_helmet",
