@@ -63,5 +63,10 @@
   "item.empyrean_ores.amethyst_hoe" : "Amethyst Hoe",
   "item.empyrean_ores.aluminum_hoe" : "Aluminum Hoe",
 
+  "item.empyrean_ores.aluminum_helmet" : "Aluminum Helmet",
+  "item.empyrean_ores.aluminum_chestplate" : "Aluminum Chestplate",
+  "item.empyrean_ores.aluminum_leggins" : "Aluminum Leggins",
+  "item.empyrean_ores.aluminum_boots" : "Aluminum Boots",
+
   "itemGroup.empyrean_ores_tab" : "Empyrean Ores"
 }

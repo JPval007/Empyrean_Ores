@@ -1,7 +1,9 @@
 package net.caballerosupreme.empyrean_ores.item;
 
 import net.caballerosupreme.empyrean_ores.EmpyreanOres;
+import net.caballerosupreme.empyrean_ores.item.custom.AluminumArmorItem;
 import net.caballerosupreme.empyrean_ores.item.custom.CustomHelmetItem;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -225,7 +227,21 @@ public class ModItems {
     //Amethyst
 
     //Aluminum
+    public static final RegistryObject<Item> ALUMINUM_HELMET = ITEMS.register("aluminum_helmet",
+            () -> new AluminumArmorItem(ModArmorMaterials.ALUMINUM, EquipmentSlot.HEAD, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
 
+    public static final RegistryObject<Item> ALUMINUM_CHESTPLATE = ITEMS.register("aluminum_chestplate",
+            () -> new AluminumArmorItem(ModArmorMaterials.ALUMINUM, EquipmentSlot.CHEST, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
+    public static final RegistryObject<Item> ALUMINUM_LEGGINS = ITEMS.register("aluminum_leggins",
+            () -> new AluminumArmorItem(ModArmorMaterials.ALUMINUM, EquipmentSlot.LEGS, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
+
+    public static final RegistryObject<Item> ALUMINUM_BOOTS = ITEMS.register("aluminum_boots",
+            () -> new AluminumArmorItem(ModArmorMaterials.ALUMINUM, EquipmentSlot.FEET, new Item.Properties()
+                    .tab(ModCreativeModeTab.EMPYREAN_ORES_TAB)));
 
 
 
